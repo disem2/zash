@@ -278,7 +278,7 @@ img#brig1{
 	width:100%;
 	text-align:center;	
 	height:70px;
-	line-height: 70px;
+	line-height: 50px;
 }
 
 h1 {
@@ -521,8 +521,8 @@ body.wht{
 }
 
 #bgl{
-	width:92%;
-	margin:260px auto 0;
+	width: 92%;
+	margin: 320px auto 0;
 	font-size: 0;
 	text-align: center;
 }
