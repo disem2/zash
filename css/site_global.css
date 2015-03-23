@@ -605,17 +605,21 @@ margin: 0 auto;
     display: block;
     width: 100%;
     float: left;
-    background: url('../images/bgb.gif') no-repeat;
+    
+	background: url('../images/bgb.gif') no-repeat;
     background-position: bottom;
-    background-size: 100% 20%;  /*100% 150px */
+    
+	background-size: 100% 80px;  /*100% 150px */
     background-color: #fff;
-    /* padding-bottom: 50px; */
+    
+	padding-bottom: 50px;
     
 	overflow: hidden;
 }
 .advantages41 .orange1 {
-	overflow: hidden;
+	/* overflow: hidden; */
 	float: right;
+	/* margin: 60px 60px 0 0; */
 }
 .payments {
     position: relative;

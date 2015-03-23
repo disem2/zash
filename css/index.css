@@ -99,6 +99,7 @@ body
 }
 #tpu{
 	background:#f9f9f9;z-index: 999;
+	padding: 10px 60px 10px 100px;
 }	
 .tright{
 	float:right;
@@ -255,6 +256,7 @@ img#brig1{
 	color:black;
 	font-size:26px;
 	line-height:120%;
+	padding-bottom: 40px;
 }
 
 #blefa2{
@@ -359,9 +361,10 @@ ul#ornge li:last-child{
 }
 
 img#blef1{
-	width: 420px;
-	margin-top: 10px;
+	width: 45%;
+	margin-top: 40px;
 	float:left;
+	margin-bottom: -80px;
 }
 
 .btoptit span{
@@ -400,7 +403,8 @@ body.zebr  .bln div, body.zebraone  .bln div, body.drk  .bln div{
 #bott{
 	right:0;
 	text-align:left;
-	margin-top: 30px;
+	margin-top: 0;
+	margin-bottom: 40px;
 	font-size:16px;
 	font-family:"Roboto Light";	
 	color:white;
@@ -424,8 +428,9 @@ a.cnus{
 	display:block;
 	color:white;
 	text-decoration:none;
-	margin-top: 20px;
-	font-size: 22px;
+	margin-top: 40px;
+	font-size: 26px;
+	font-family: "Roboto Light";
 }
 
 a.cnus:hover{
@@ -550,8 +555,8 @@ body.wht{
 	display: none;
 }
 .payments-part .p-img {
-	width: 85px;
-	height: 100px;
+	width: 100px;
+	height: 120px;
 	margin: 0 auto;
 }
 .payments-part img {
@@ -601,6 +606,7 @@ body.wht{
 	font-size: 12px;
 	line-height: 12px;
 	text-align: center;
+	vertical-align: top;
 }
 .p2p li {
 	width: 15.5%;
@@ -608,6 +614,7 @@ body.wht{
 	font-size: 12px;
 	line-height: 12px;
 	text-align: center;
+	vertical-align: top;
 }
 #bgl001,#bgl002,#bgl003,#bgl004{
 	width:92%;
@@ -636,26 +643,26 @@ ul.lista li{
 	font-family:"Roboto Light";
 	color:#000000;
 	font-size:19px;
-	/* line-height:110%; */	
+	line-height:110%;	
 	overflow: hidden;
 	margin-top: 40px;
 }
 
 .central #cnts	{
 	margin-top:1%;
-	width:45%;
+	width: 47%;
 	text-align:justify;
 }
 
 .central #lefts	{
 	margin-top:1%;
-	width:45%;
+	width: 47%;
 	text-align:justify;
 	float:left;
 }
 .central #rights	{
 	margin-top:1%;
-	width:45%;
+	width: 47%;
 	text-align:justify;
 	float:right;
 }
@@ -664,7 +671,7 @@ img.circle{
 	margin:0px auto;
 	margin-top:2%;
 	display:block;
-	width:28%;
+	width: 30%;
 }
 
 .central .prtn {
@@ -1008,7 +1015,7 @@ img.ok{
 		width: 100%;
 	}
 	.orange1 {
-		width: 100%;
+		width: 10%;
 	}
 	#banner a.orange {
 		font-size: 16px;
@@ -1027,7 +1034,7 @@ img.ok{
 		width: 95%;
 	}
 	#bgl {
-		margin-top: 160px;
+		margin-top: 210px;
 		text-align: center;
 	}
 	#bgl li {
@@ -1097,7 +1104,7 @@ img.ok{
 		display: table-header-group;		
 	}
 	.payments {
-		padding-bottom: 0;
+		padding-bottom: 10px;
 		background: #ececec;
 	}
 	#bgl li:last-child {
@@ -1106,11 +1113,15 @@ img.ok{
 	.advantages41 {
 		float: none;
 		overflow: hidden;
-		height: 300px !important;
-	}
+	
+		padding-bottom: 100px;
+}
 	.orange1 {
 		right: 0;
-		height: 70%;
+		/* height: 70%; */
+	}
+	.advantages41 .orange1 {
+		margin: 0;
 	}
 	.orange1 a, .orange1 div {
 		position: absolute;
@@ -1126,18 +1137,22 @@ img.ok{
 		right: 10px;
 		margin-right: 0 !important;
 		font-size: 14px !important;
-		line-height: 25px;
-	}
+		line-height: 20px !important;
+	
+		margin-top: 35px !important;
+}
 	.orange1 div b {
 		font-weight: normal;
-		font-size: 14px !important;	
-	}
+		font-size: 12px !important;	
+	
+		line-height: 0px !important;
+}
 	#fb, #yt, #tw {
 		width: 36px;
 		height: 36px;
 		background-size: cover;
 		margin-right: 10px;
-		bottom: -1%;
+		bottom: 83px;
 	}
 	#tw {
 		left: 10px;
@@ -1149,14 +1164,19 @@ img.ok{
 		left: 102px;
 	}
 	img#blef1 {
-		width: 255px;
+		width: 90%;
 		bottom: 60px;
-		left: 5px;
-		position: absolute;
-	}
+		left: 5px;	
+		margin-top: 40px;
+		margin-bottom: -30px;
+}
 	.foot {
-		overflow: hidden;
-	}
+		/* overflow: hidden; */
+	
+		position: absolute;
+		bottom: -95px;
+		left: 38%;
+}
 	#bott {
 		width: 100%;
 		height: 100px;
