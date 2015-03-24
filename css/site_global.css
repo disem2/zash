@@ -17,8 +17,11 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 }
 header {
     height: 100%;
+    margin-bottom: 20px;
 }
-
+header.part {
+	margin-bottom: 0;
+}
 table
 {
 	border-collapse: collapse;
@@ -422,7 +425,6 @@ overflow-x: hidden;
 .central-work div {
 width: 70%;
 margin: 0px auto;
-margin-top: 80px;
 font-family: "Roboto Light";
 color: #ffffff;
 font-size: 18px;
@@ -452,7 +454,7 @@ margin-right: 2%;
 color: white;
 }
 .partnership .tlef {
-margin-top: 135px;
+margin-top: 0;
 color: white;
 font-size: 22px;
 width: 43%;

@@ -91,7 +91,7 @@ body
 	right: 0;
 	left: 0;
 	font-size:30px;
-	padding: 10px 2% 10px 0px;
+	padding: 10px 60px 10px 100px;
 }
 #tp{
 	background:#171717;z-index: 999;
@@ -197,7 +197,7 @@ a.orange:hover{
 }
 .central .orange1{
 	display:block;
-	margin-top:5%;	
+	margin-top: 20px;	
 	right: 2%;
 	position:absolute;	
 	font-family: "Roboto Light";
@@ -225,11 +225,11 @@ a.orangeb:hover{
 img#brig, img#brigf{
 	float:right;
 	width:33%;
-	margin-top:85px;
+	margin-top: -50px;
 }
 img#brig0,img#brig02,img#brig03{
 	float:right;
-	width:33%;
+	width: 40%;
 	margin-top:85px;
 }
 
@@ -276,17 +276,19 @@ img#brig1{
 	line-height:120%;
 }
 .btoptit{
-	/* position: absolute; */
-	margin-top: 40px;
 	font-family:"Roboto Light";
 	color:black;
 	font-size:32px;
 	width:100%;
-	text-align:center;	
-	height: 30px;
+	text-align:center;
 	line-height: 50px;
+	height: 150px;
+	line-height: 150px;
 }
-
+.payments .btoptit {
+	height: 100px;
+	line-height: 100px;
+}
 h1 {
 	font-size:34px;
 	color:#ff5a19;
@@ -364,7 +366,7 @@ img#blef1{
 	width: 45%;
 	margin-top: 40px;
 	float:left;
-	margin-bottom: -80px;
+	margin-bottom: 0;
 }
 
 .btoptit span{
@@ -377,7 +379,7 @@ img#blef1{
 }
 
 .btoptit .inse{
-	margin-top:18px;
+	margin-top: 20px;
 	font-size:18px;
 	line-height:120%;
 }
@@ -533,7 +535,7 @@ body.wht{
 
 #bgl{
 	width: 92%;
-	margin: 320px auto 0;
+	margin: 160px auto 0;
 	font-size: 0;
 	text-align: center;
 }
@@ -619,7 +621,7 @@ body.wht{
 #bgl001,#bgl002,#bgl003,#bgl004{
 	width:92%;
 	margin:0 auto;
-	margin-top:150px;
+	margin-top: 50px;
 	font-size: 0;
 	text-align: center;
 }
@@ -636,20 +638,20 @@ ul.lista li{
 	float:left;
 	width: 100%;
 }
+.about .central div {
+	margin-left: 40px;
+}
 .central div{
 	width: 65%;/*1200px;  70%*/
-	margin:0px auto;
-	margin-top:100px;
+	margin: 0 auto;
 	font-family:"Roboto Light";
 	color:#000000;
 	font-size:19px;
 	line-height:110%;	
 	overflow: hidden;
-	margin-top: 40px;
 }
 
 .central #cnts	{
-	margin-top:1%;
 	width: 47%;
 	text-align:justify;
 }
@@ -669,7 +671,6 @@ ul.lista li{
 
 img.circle{
 	margin:0px auto;
-	margin-top:2%;
 	display:block;
 	width: 30%;
 }
@@ -681,7 +682,7 @@ img.circle{
 .central .prtn div{
 	font-size:32px;
 	width:100%;
-	margin-top:1%;	
+	/* margin-top:1%; */	
 }
 
 .central .prtn div .p60{
@@ -889,7 +890,9 @@ h1.minito{
 	font-size:30px;
 }
 
-
+.btoptit .inse.h-use {
+	margin-top: -10px;
+}
 .inse b{
 	font-size:20px;
 	border:2px solid #ff5a19;
@@ -943,20 +946,12 @@ img.ok{
 #banner {
 	display: none;
 }
-.work .btoptit {
-	height: 60px;
-	line-height: 100px;
-}
-.partners .btoptit {
-	height: 80px;
-	line-height: 80px;
-}
 .foot {
 	overflow: hidden;
 	width: 100%;
-	margin-top: 100px;
-	float: left;
 	text-align: center;
+	position: absolute;
+	bottom: -20px;
 }
 /*320px - 800px devises*/
 @media screen and (max-width: 800px) and (min-width: 320px) {
@@ -981,7 +976,10 @@ img.ok{
 		margin-right: 10px;
 		font-size: 16px;
 		margin-top: -10px;
-	}
+	
+		width: 300px;
+		float: right;
+}
 	.m-hide {
 		display: none !important;
 	}
@@ -1000,7 +998,9 @@ img.ok{
 		font-size: 20px;
 		text-align: right;
 		line-height: 40px;
-	}
+	
+		width: 100%;
+}
 	.tright a {
 		margin-left: 20px;
 	
@@ -1022,15 +1022,15 @@ img.ok{
 		padding: 8px 25px;
 	}
 	.btoptit {
-		line-height: auto;
-		/* margin-top: 10px; */
 		font-size: 20px;
+		height: 50px;
+		line-height: 50px;
 		width: 100%;
 	}
 	.btoptit .inse {
 		font-size: 10px;
 		line-height: 14px;
-		margin: 10px auto;
+		margin: -5px auto 10px;
 		width: 95%;
 	}
 	#bgl {
@@ -1052,8 +1052,7 @@ img.ok{
 		margin: 0;
 	}
 	.central>div div {
-		margin: 10px auto 0 auto !important;
-		width: 90% !important;
+		margin: 0 auto !important;
 		font-size: 12px;
 		float: none !important;
 	}
@@ -1098,7 +1097,6 @@ img.ok{
 	}
 	.security {
 		display: table-footer-group;
-		margin-top: 20px;
 	}
 	.adv-wrap {
 		display: table-header-group;		
@@ -1227,7 +1225,7 @@ img.ok{
 		margin: 0;
 		width: 100%;
 	
-		margin-top: 20px;
+		margin-top: 10px;
 }
 	table#price tr td {
 		padding: 2px;
@@ -1246,20 +1244,23 @@ img.ok{
 		background-size: cover;
 		font-size: 14px;
 	}
-	.btoptit {
-		top: 0px;	
-		margin-top: 0;
-		height: 30px;
-}
 	#tlef1 {
-		margin-top: 20px;
+		margin-top: 0;
 	}
+	#trt {
+		text-align: right;
+		width: 300px;
+	
+		display: inline-block;
+}
 	.tlef {
 		font-size: 14px;
 	}
 	#tp {
 		box-sizing: border-box;
-	}
+	
+		padding: 10px 0;
+}
 	.central-work div .four {
 		width: 45%;
 		float: none;
@@ -1268,7 +1269,9 @@ img.ok{
 	}
 	.central-work {
 		overflow: hidden;
-	}
+	
+		margin-top: -10px;
+}
 	.central-work div {
 		vertical-align: top;
 		font-size: 12px;
@@ -1282,26 +1285,30 @@ img.ok{
 	.partnership .tlef {
 		width: 98%;
 		margin-top: 0;
-		padding-bottom: 150px;
+		padding-bottom: 350px;
 	}
 	.partnership h2 {
 		font-size: 22px;
 	}
 	.partnership .tlef {
 		font-size: 18px;
-	}
+	
+		margin-top: -20px;
+}
 	.central .prtn {
 		margin-top: -20px;
 	}
 	.central .prtn center {
-		text-align: left;
+		text-align: center;
 	}
 	.central .prtn center a {
 		display: inline-block;
 		margin-right: 10px;
-	}
+	
+		width: 25%;
+}
 	.central .prtn center img {
-		width: 120px ! important;		
+		width: 90% ! important;		
 	}
 	.about-part {
 		float: none;
@@ -1320,7 +1327,9 @@ img.ok{
 	.about-part .orange1 {
 		float: none;
 		height: auto;
-	}
+	
+		width: 300px;
+}
 	.about-part .orange1 a {
 		position: relative;
 	}
@@ -1332,7 +1341,9 @@ img.ok{
 	}
 	.about-part .central>div {
 		width: 100% !important;
-	}
+	
+		margin: 0 auto;
+}
 	.dow50 {
 		margin-top: 10px;
 		padding-bottom: 0;
@@ -1369,11 +1380,15 @@ img.ok{
 		display: block;
 		text-align: center;
 		width: 100%;
-	}	
-}
-/*1800px - 5000px devises*/
-@media screen and (max-width: 5000px) and (min-width: 1800px) {
-	.btoptit {
-		margin-top: 100px;
 	}
+	.partners .central {
+		margin-top: 40px;
+	}
+}
+
+/*320px - 800px devises*/
+@media screen and (max-width: 3000px) and (min-width: 1500px) {
+.bt-table {
+	margin-top: 100px;
+}
 }
