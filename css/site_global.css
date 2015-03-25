@@ -607,7 +607,7 @@ margin: 0 auto;
     display: block;
     width: 100%;
     float: left;
-    
+    height: 100%;
 	background: url('../images/bgb.gif') no-repeat;
     background-position: bottom;
     

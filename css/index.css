@@ -363,10 +363,11 @@ ul#ornge li:last-child{
 }
 
 img#blef1{
-	width: 45%;
+	width: 50%;
 	margin-top: 40px;
-	float:left;
 	margin-bottom: 0;
+	position: absolute;
+	bottom: 60px;
 }
 
 .btoptit span{
@@ -885,7 +886,9 @@ div.langa a{
 #tlef1{
 	margin-top:8%;
 }
-
+.read-more {
+	display: none;
+}
 h1.minito{
 	font-size:30px;
 }
@@ -1055,7 +1058,9 @@ img.ok{
 		margin: 0 auto !important;
 		font-size: 12px;
 		float: none !important;
-	}
+	
+		width: 80% !important;
+}
 	.blef {
 		width: 90%;
 		margin-left: 20px;
@@ -1079,12 +1084,19 @@ img.ok{
 		float: none;
 		background: url('../images/phone1.png') #ffffff no-repeat;
 		background-position: right top;
+
+	}
+	.advantages2 {
+		background: url('../images/phone1.png') #ffffff no-repeat;
+		background-position: right top;
 	}
 	.advantages3 {
 		display: table-footer-group;
 		float: none;
 		background: url('../images/phone1.png') #ffffff no-repeat;
 		background-position: right top;
+		background: url('../images/phone2.png') no-repeat, url('../images/phone2-bg.png');
+		background-position: left top;
 	}
 	.advantages {
 		display: table-row-group;
@@ -1113,6 +1125,7 @@ img.ok{
 		overflow: hidden;
 	
 		padding-bottom: 100px;
+		height: 300px;
 }
 	.orange1 {
 		right: 0;
@@ -1162,11 +1175,11 @@ img.ok{
 		left: 102px;
 	}
 	img#blef1 {
-		width: 90%;
+		width: 300px;
 		bottom: 60px;
 		left: 5px;	
 		margin-top: 40px;
-		margin-bottom: -30px;
+		margin-bottom: 10px;
 }
 	.foot {
 		/* overflow: hidden; */
@@ -1384,9 +1397,15 @@ img.ok{
 	.partners .central {
 		margin-top: 40px;
 	}
+	.more {
+		display: none;
+	}
+.read-more {
+	display: inline;
+}
 }
 
-/*320px - 800px devises*/
+/*1500px - 3000px devises*/
 @media screen and (max-width: 3000px) and (min-width: 1500px) {
 .bt-table {
 	margin-top: 100px;

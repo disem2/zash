@@ -251,7 +251,7 @@
       <img src="images/3.1.png" alt="" id="brig0" class="m-hide" />
     </div>
 
-    <div class="advantages2 m-hide">
+    <div class="advantages2">
       <div class="blef" id="blefa2">
         <h1 class="minito">Why wait or stand in line? Zash helps you save time!</h1>
         <br />
@@ -272,10 +272,10 @@
         Paying with Zash is like buying something online or buying an app from Apple or Google!
         <br />
         <br />
-        Zash, nor the merchant, never sees your payment card details.
+        Zash, nor the merchant, never sees your payment card details. <a class="read-more" href="#">[ . . . ]</a>
         <br />
         <br />
-        If you loose your phone, you will notice it much quicker than if you would loose your physical wallet. But if it happens, you can simply block Your payment card with your bank or delete Your Zash app remotely. All Card details will be erased at the bank which stores it for you securelly. In addition for security purposes, Zash always sends a PIN or fingerprint authorisation before charging your card, again similar as if you would by an app from Apple Store or Google Play.
+        <p class="more">If you loose your phone, you will notice it much quicker than if you would loose your physical wallet. But if it happens, you can simply block Your payment card with your bank or delete Your Zash app remotely. All Card details will be erased at the bank which stores it for you securelly. In addition for security purposes, Zash always sends a PIN or fingerprint authorisation before charging your card, again similar as if you would by an app from Apple Store or Google Play.<p>
       </div>
       <img src="images/3.3.png" alt="" id="brig02" class="m-hide" />
       <br />
@@ -300,7 +300,7 @@
   </div>
  
 
-  <div class="advantages41" style="height:auto;">
+  <div class="advantages41">
     <div class="orange1">
       <!--h1>Zash is a Global Payment system.</h1-->
     <br />
@@ -500,6 +500,10 @@ $("#hov").click(
 
 $("a#thefootest").mouseover(function(){$("#agr").show("fast","swing");});
 
+});
+$('.read-more').on('click', function(e){
+  e.preventDefault();
+  $('.more').slideToggle('slow');
 });
 </script>
 
